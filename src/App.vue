@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">任务管理</router-link> |
+    <router-link to="/node">节点管理</router-link> |
+    <router-link to="/resource">传输资源</router-link>
   </div>
   <router-view/>
 </template>
@@ -19,6 +20,7 @@
   padding: 30px;
 
   a {
+    font-size: 16px;
     font-weight: bold;
     color: #2c3e50;
 
